@@ -1,0 +1,12 @@
+{
+  "name": "package-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "log": "node index.js --name package-b"
+  },
+  "dependencies": {
+    "package-a": "1.0.0"
+  }
+}

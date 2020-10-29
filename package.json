@@ -1,0 +1,11 @@
+{
+	"private": true,
+	"workspaces": [
+		"nested-packages/*",
+		"package-a",
+		"package-b"
+	],
+	"scripts": {
+		"workspace": "run(){ cd $1 && npm run $2 -- ${@:3}; }; run"
+	}
+}
